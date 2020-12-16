@@ -1,0 +1,85 @@
+.blog-box {
+    background: #000 none repeat scroll 0 0;
+    color: #fff;
+    padding: 45px 110px;
+    border-radius: 15px 15px 0 0;
+}
+.blog-box p::before {
+    content: url("../../../images/left-quotes-sign.png");
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.blog-box p::after {
+    content: url("../../../images/left-quotes-sign.png");
+    right: 0;
+    position: absolute;
+    bottom:  0;
+    transform: scaleX(-1);
+}
+.blog-box > p {
+    padding: 0 40px;
+    position: relative;
+}
+.blog-box > p {
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: 2px;
+    line-height: 30px;
+    padding: 0 40px;
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.blog-view-box {
+    background: #ff4157 none repeat scroll 0 0;
+    border-radius: 15px;
+    color: #fff;
+    margin-top: -15px;
+    padding: 15px 110px;
+}
+.blog-view-box .media-body {
+    vertical-align: middle;
+}
+.blog-view-box .media-body h3 {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.blog-rev {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+/*carousel*/
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
+.carousel-control {
+    opacity: 1;
+}
+#myCarousel2 .carousel-indicators li {
+    background-color: #000;
+    border: 1px solid #000;
+    width: 140px;
+}
+#myCarousel2 .carousel-indicators .active {
+    background-color: #ff4157;
+    border-color: #ff4157;
+    width: 140px; 
+}
+#myCarousel2 .carousel-indicators {
+    bottom: -55px;
+}
+#myCarousel2 .carousel-indicators li + li {
+    margin-left: 15px;
+}
+.carousel-control {
+    top: 50%;
+}
+.carousel-control:focus, .carousel-control:hover {
+    opacity: 1;
+}
+#myCarousel1 .carousel-indicators .active{
+    background: #ff4157;
+    border-color: #ff4157;
+}
